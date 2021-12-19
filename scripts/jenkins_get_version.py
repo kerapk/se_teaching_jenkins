@@ -2,7 +2,7 @@ import jenkins
 
 server = jenkins.Jenkins('http://localhost:8080',
                          username='admin',
-                         password='')  # place password here
+                         password='f909736f8d9744649a604f3f61a74c53')  # place password here
 
 
 user = server.get_whoami()
